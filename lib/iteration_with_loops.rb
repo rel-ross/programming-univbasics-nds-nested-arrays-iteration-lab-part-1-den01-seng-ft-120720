@@ -9,6 +9,8 @@ def find_even_values(src)
       if src[row_index][element_index].even?
         p array_of_arrays[row_index][element_index]
       end
+        element_index +=1
+     
       end
       row_index += 1
   end
